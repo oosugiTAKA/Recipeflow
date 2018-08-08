@@ -1,0 +1,23 @@
+{
+	"nodes": [
+	{"id":"0", "label":"割る\n卵\nボウル", "description":"卵をボウルに割る", "url":"test.mp4", "posx":20, "posy":280 },
+	{"id":"1", "label":"入れる\nマヨネーズ", "description":"マヨネーズを卵の入ったボウルに入れる", "posx":180, "posy":280 },
+	{"id":"2", "label":"敷く\n油\nフライパン", "description":"フライパンに油を敷く", "posx":340, "posy":280 },
+	{"id":"3", "label":"入れる\n卵\nあっためたら", "description":"油を敷いたフライパンが温まったらボウルに割った卵を入れる", "posx":500, "posy":280 },
+	{"id":"4", "label":"入れる\nご飯\nすぐに", "description":"フライパンにご飯をすぐに入れる", "posx":660, "posy":280 },
+	{"id":"5", "label":"混ぜる\n卵に絡めるように", "description":"フライパンに入っているご飯を卵に絡めるように混ぜる", "posx":820, "posy":280 },
+	{"id":"6", "label":"入れる\n鶏ガラスープの素\n塩コショウ", "description":"フライパンに鶏がらスープの素と塩コショウを入れる", "posx":980, "posy":280 },
+	{"id":"7", "label":"入れる\nレタス", "description":"フライパンにレタスを入れる", "posx":1140, "posy":280 },
+	{"id":"8", "label":"混ぜる\nしんなりするまで", "description":"レタスがしんなりするまでフライパンの中身を混ぜる", "posx":1300, "posy":280 }
+],
+ "links": [
+	{ "source" : 0, "target" : 1 },
+	{ "source" : 1, "target" : 3 },
+	{ "source" : 2, "target" : 3 },
+	{ "source" : 3, "target" : 4 },
+	{ "source" : 4, "target" : 5 },
+	{ "source" : 5, "target" : 6 },
+	{ "source" : 6, "target" : 7 },
+	{ "source" : 7, "target" : 8 }
+]
+}
